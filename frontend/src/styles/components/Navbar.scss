@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+
+// header
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+
+}
+
+
+nav {
+  border-top: 1px solid rgba(128, 128, 128, 0.541);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  //border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+nav img {
+  width: 25px;
+}
+
+
+
+
+
+.logo a{
+  color: #5433EB;
+}
+
+
+.banner {
+  font-size: 14px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+
+}
+
+
+// login btn
+.login-btn {
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  padding:  5px 12px;
+  border-radius: 5px;
+}

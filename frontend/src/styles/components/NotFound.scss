@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 12px;
+    gap: 15px;
+    overflow: hidden;
+   // border: 2px solid red;
+    //padding-top: 250px;
+}
+
+.not-found a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 4px;
+}

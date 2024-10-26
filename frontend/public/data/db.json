@@ -1,0 +1,173 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "description": "Latest model with 5G support.",
+      "price": 999.99,
+      "stock": 50,
+      "category": "electronics",
+      "type": "mobile",
+      "brand": "BrandX",
+      "rating": 4.5,
+      "image": "https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/geo/Apple-iPhone-16-hero-geo-240909_inline.jpg.small.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+      "price": 1299.99,
+      "stock": 30,
+      "category": "electronics",
+      "type": "computer",
+      "brand": "BrandY",
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSsgEB37zU_xBpEUeVJbRTZrTRvxQDO8tIAA&s"
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "description": "Lightweight tablet with a 10-inch display and 64GB storage.",
+      "price": 399.99,
+      "stock": 25,
+      "category": "electronics",
+      "type": "mobile",
+      "brand": "BrandZ",
+      "rating": 4.2,
+      "image": "https://example.com/images/tablet.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Refrigerator",
+      "description": "Energy-efficient refrigerator with large capacity.",
+      "price": 599.99,
+      "stock": 15,
+      "category": "home_appliances",
+      "type": "refrigerator",
+      "brand": "BrandK",
+      "rating": 4.3,
+      "image": "https://example.com/images/refrigerator.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Microwave Oven",
+      "description": "Compact microwave with multiple presets.",
+      "price": 99.99,
+      "stock": 20,
+      "category": "home_appliances",
+      "type": "microwave",
+      "brand": "BrandM",
+      "rating": 4.1,
+      "image": "https://example.com/images/microwave.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sofa",
+      "description": "Comfortable 3-seater sofa with fabric upholstery.",
+      "price": 499.99,
+      "stock": 10,
+      "category": "furniture",
+      "type": "sofa",
+      "brand": "BrandFurni",
+      "rating": 4.4,
+      "image": "https://example.com/images/sofa.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dining Table",
+      "description": "Wooden dining table with seating for 6 people.",
+      "price": 399.99,
+      "stock": 5,
+      "category": "furniture",
+      "type": "table",
+      "brand": "BrandWood",
+      "rating": 4.7,
+      "image": "https://example.com/images/dining_table.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Vacuum Cleaner",
+      "description": "Cordless vacuum cleaner with powerful suction.",
+      "price": 199.99,
+      "stock": 25,
+      "category": "home_appliances",
+      "type": "vacuum",
+      "brand": "BrandVac",
+      "rating": 4.6,
+      "image": "https://example.com/images/vacuum_cleaner.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Gaming Console",
+      "description": "Latest gaming console with 4K support.",
+      "price": 499.99,
+      "stock": 10,
+      "category": "electronics",
+      "type": "gaming",
+      "brand": "BrandF",
+      "rating": 4.8,
+      "image": "https://example.com/images/gaming_console.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Office Chair",
+      "description": "Ergonomic office chair with lumbar support.",
+      "price": 149.99,
+      "stock": 12,
+      "category": "furniture",
+      "type": "chair",
+      "brand": "BrandWork",
+      "rating": 4.5,
+      "image": "https://example.com/images/office_chair.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "+1234567890",
+      "address": "123 Main St, Cityville"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "+0987654321",
+      "address": "456 Elm St, Townsville"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 999.99
+        },
+        {
+          "productId": 5,
+          "quantity": 2,
+          "price": 79.99
+        }
+      ],
+      "total": 1159.97,
+      "status": "shipped"
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "total": 1299.99,
+      "status": "processing"
+    }
+  ]
+}

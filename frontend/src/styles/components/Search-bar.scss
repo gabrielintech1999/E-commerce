@@ -1,0 +1,104 @@
+// search-bar
+
+.search-bar {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+  padding: 12px;
+  position: relative;
+}
+.search-bar input {
+  border: 1px solid #f2f4f5;
+  border-radius: 12px;
+  width: 100%;
+  line-height: 3;
+  padding-inline-start: 45px;
+  padding-inline-end: 10px;
+  background-color: #f2f4f5; // ultimo valor e opacidade
+}
+
+.search-bar input::placeholder {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+
+.icon img {
+  width: 16px;
+  // border: 1px solid red;
+}
+
+.search-bar [type="button"] {
+  position: absolute;
+  top: 25px;
+  right: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+// ChatGPT
+.search-bar {
+  position: relative;
+}
+
+.placeholder-container {
+  position: relative;
+}
+
+.search-input {
+  // width: 100%;
+  // padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove a borda padrão ao focar */
+}
+
+.placeholder {
+  position: absolute;
+  left: 50px;
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajusta para ficar exatamente no centro */
+  pointer-events: none; /* Impede a interação do mouse */
+  color: #999; /* Cor do texto do placeholder */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  animation: move-up 0.5s forwards; /* Aplica a animação de movimento para cima */
+}
+
+/* Estiliza o 'X' padrão em navegadores baseados em WebKit */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20width='24'%20height='24'%3E%3Ccircle%20cx='12'%20cy='12'%20r='10'%20fill='%23C9CBCC'/%3E%3Cpath%20d='M9.707%208.293a1%201%200%200%200-1.414%201.414L10.586%2012l-2.293%202.293a1%201%200%200%200%201.414%201.414L12%2013.414l2.293%202.293a1%201%200%200%200%201.414-1.414L13.414%2012l2.293-2.293a1%201%200%200%200-1.414-1.414L12%2010.586%209.707%208.293z'%20fill='white'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+@keyframes move-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px); /* Move o texto para cima */
+    opacity: 0; /* Torna invisível */
+  }
+}

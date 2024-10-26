@@ -1,0 +1,151 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "description": "Latest model with 5G support.",
+        "price": 999.99,
+        "stock": 50,
+        "category": "electronics"
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+        "price": 1299.99,
+        "stock": 30,
+        "category": "electronics"
+      },
+      {
+        "id": 3,
+        "name": "Tablet",
+        "description": "Lightweight tablet with a 10-inch display and 64GB storage.",
+        "price": 399.99,
+        "stock": 25,
+        "category": "electronics"
+      },
+      {
+        "id": 4,
+        "name": "Smartwatch",
+        "description": "Fitness smartwatch with heart rate monitoring and GPS.",
+        "price": 199.99,
+        "stock": 40,
+        "category": "electronics"
+      },
+      {
+        "id": 5,
+        "name": "Bluetooth Speaker",
+        "description": "Portable Bluetooth speaker with powerful sound and long battery life.",
+        "price": 79.99,
+        "stock": 60,
+        "category": "electronics"
+      },
+      {
+        "id": 6,
+        "name": "Drone",
+        "description": "Quadcopter drone with HD camera and 30-minute flight time.",
+        "price": 499.99,
+        "stock": 15,
+        "category": "electronics"
+      },
+      {
+        "id": 7,
+        "name": "Headphones",
+        "description": "Over-ear headphones with noise cancellation.",
+        "price": 149.99,
+        "stock": 35,
+        "category": "electronics"
+      },
+      {
+        "id": 8,
+        "name": "External Hard Drive",
+        "description": "1TB external hard drive for data storage.",
+        "price": 89.99,
+        "stock": 20,
+        "category": "electronics"
+      },
+      {
+        "id": 9,
+        "name": "Gaming Console",
+        "description": "Latest gaming console with 4K support.",
+        "price": 499.99,
+        "stock": 10,
+        "category": "electronics"
+      },
+      {
+        "id": 10,
+        "name": "Camera",
+        "description": "Digital camera with 20MP and 4K video capabilities.",
+        "price": 599.99,
+        "stock": 8,
+        "category": "electronics"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "description": "All kinds of electronic devices and gadgets."
+      },
+      {
+        "id": 2,
+        "name": "Home Appliances",
+        "description": "Appliances for home use."
+      },
+      {
+        "id": 3,
+        "name": "Furniture",
+        "description": "Home and office furniture."
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "phone": "+1234567890",
+        "address": "123 Main St, Cityville"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "phone": "+0987654321",
+        "address": "456 Elm St, Townsville"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customerId": 1,
+        "items": [
+          {
+            "productId": 1,
+            "quantity": 1,
+            "price": 999.99
+          },
+          {
+            "productId": 5,
+            "quantity": 2,
+            "price": 79.99
+          }
+        ],
+        "total": 1159.97,
+        "status": "shipped"
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "items": [
+          {
+            "productId": 2,
+            "quantity": 1,
+            "price": 1299.99
+          }
+        ],
+        "total": 1299.99,
+        "status": "processing"
+      }
+    ]
+  }
+  
